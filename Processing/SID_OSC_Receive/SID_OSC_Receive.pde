@@ -62,7 +62,7 @@ void setup() {
   // or for testing you could ...
   //                 Parent  In        Out
   //                   |     |          |
-  myBus = new MidiBus(this, -1, "to Max 1"); // Create a new MidiBus with no input device and the default Java Sound Synthesizer as the output device.
+  myBus = new MidiBus(this, -1, "Bus 1"); // Create a new MidiBus with no input device and the default Java Sound Synthesizer as the output device.
 }
 
 // Each of the functions below will be called individually if a OSC message with the respective address is received.
